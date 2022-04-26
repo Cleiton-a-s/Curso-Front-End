@@ -1,0 +1,207 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.container {
+    display: block;
+    float: left;
+    max-width: 100%;
+    max-width: 1198px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 2rem;
+    color: #254159;
+    margin: 20px 0 10px 0;
+}
+h3 {
+    font-size: 1.8rem;
+    color: #254159;
+    margin: 20px 0 10px 0;
+}
+h4 {
+    font-size: 1.6rem;
+    color: #254159;
+    margin: 20px 0 10px 0;
+}
+p {
+    font-size: 1.6rem;
+}
+
+ol li {
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+ol + p {
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+header {
+    background-color: #fff;
+    display: block;
+    border-bottom: 2px solid #254159;
+    margin-bottom: 10px;
+}
+header img {
+    margin: 30px;
+}
+
+section {
+    width: 100%;
+}
+
+section nav {
+    margin-top: 20px;
+    width: 30%;
+    display: block;
+    float: left;
+}
+nav li {
+    background-color: #efefef;
+    margin: 1px 20px 0px 20px;
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    
+}
+nav li:hover {
+    background-color: #dfdfdf;
+}
+nav li a:hover {
+    color: #385874;
+}
+
+section article {
+    width: 70%;
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874;
+    
+}
+.cognito {
+    background-color: transparent !important;
+    width: 500px;
+    height: 350px !important;
+    overflow: hidden !important;
+    position: relative;
+    float: left;
+}
+#tenho-interesse article  {
+    margin:10px 10px 10px 10px;
+
+}
+
+
+.container2 {
+    background-color: #b8c8d6 !important;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 20px 0px auto;
+    border-top: 2px solid #606060;
+}
+
+
+footer {
+    background-color: #254159;
+    padding: 20px;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer small {
+    font-size: 1.5rem;
+    
+}
+
+@media (max-width: 900px) {   
+    .container {
+        margin: 10px 15%;
+    }
+    section nav {
+        width: 100vw;
+        height: auto;
+
+    }
+    section nav li {
+        display: inline-block;
+        margin: 10px 5%;
+        margin-left: 3%;
+    }
+    article img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 530px) {
+
+    .container {
+        width: 100%;
+        margin: 10px 15%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+
+    }
+    section nav li {
+        display: block;
+        width: 50%;
+        height: auto;
+        text-align: center;
+    }
+    
+    #tenho-interesse form,
+    .cognito.c-med .c-forms-form,
+    .cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+    width: 300px;
+        }
+    
+        footer {
+            text-align: left;
+            width: 100%;
+        }
+}
