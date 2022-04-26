@@ -181,11 +181,15 @@ footer small {
         margin: 10px 15%;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
-    h2 {
-
+    h2, h3, h4 {
+        font-size: 1.6rem;
     }
+    p {
+        font-size: 1.3rem;
+    }
+    
     section nav li {
         display: block;
         width: 50%;
@@ -204,4 +208,13 @@ footer small {
             text-align: left;
             width: 100%;
         }
+}
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2, h3, h4 {
+        font-size: 1.5rem;
+    }
 }
