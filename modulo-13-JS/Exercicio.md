@@ -1,42 +1,42 @@
 # Exercícios:
 ## 1. Resolva as operações:
-● 10 + 15 = 25
-● “10” + 2 = 102
-● “10” * 2 = 20
-● “10” / 3 = 3,333
-● “10” % 3 = 1
-● 10 + true = 11
-● 10 == ”10” = true
-● 10 === “10” = false
-● 10 < 11 = true
-● 10 > 12 = false
-● 10 <= 10.1 = true
-● 10 > 9.99 = true
-● 10 != “dez” = true
-● 10 + true = 11
-● “dez” + true = deztrue
-● 10 + false = 10
-● 10 * false = 0
-● true + true = 2
-● 10++ = 11
-● 10-- = 9
-● 1 & 1 = true
-● 1 & 0 = false
-● 0 & 0 = false
-● 1 & 0 = false
-● 0 / 1 = 0 
-● 5 + 5 == 10 = true
-● “5” + ”5” == 10 = false
-● “5” * 2 > 9 = true
-● (10 + 10) * 2 = 40
-● 10 + 10 * 2 = 30
+<p>● 10 + 15 = 25</p>
+<p>● “10” + 2 = 102</p>
+<p>● “10” * 2 = 20</p>
+<p>● “10” / 3 = 3,333</p>
+<p>● “10” % 3 = 1</p>
+<p>● 10 + true = 11</p>
+<p>● 10 == ”10” = true</p>
+<p>● 10 === “10” = false</p>
+<p>● 10 < 11 = true</p>
+<p>● 10 > 12 = false</p>
+<p>● 10 <= 10.1 = true</p>
+<p>● 10 > 9.99 = true</p>
+<p>● 10 != “dez” = true</p>
+<p>● 10 + true = 11</p>
+<p>● “dez” + true = deztrue</p>
+<p>● 10 + false = 10</p>
+<p>● 10 * false = 0</p>
+<p>● true + true = 2</p>
+<p>● 10++ = 11</p>
+<p>● 10-- = 9</p>
+<p>● 1 & 1 = true</p>
+<p>● 1 & 0 = false</p>
+<p>● 0 & 0 = false</p>
+<p>● 1 & 0 = false</p>
+<p>● 0 / 1 = 0 </p>
+<p>● 5 + 5 == 10 = true</p>
+<p>● “5” + ”5” == 10 = false</p>
+<p>● “5” * 2 > 9 = true</p>
+<p>● (10 + 10) * 2 = 40</p>
+<p>● 10 + 10 * 2 = 30</p>
 ## 2. Responda as perguntas de acordo com as variáveis.
-var branco = “preto”;
-var preto = “cinza”;
-var cinza = “branco”;
-var carro = “preto”;
-var valor = 30000;
-var prestacao = 750;
+<p>var branco = “preto”;</p>
+<p>var preto = “cinza”;</p>
+<p>var cinza = “branco”;</p>
+<p>var carro = “preto”;</p>
+<p>var valor = 30000;</p>
+<p>var prestacao = 750;</p>
 
 ### a) branco == “branco”  
 Resp: false
