@@ -52,9 +52,9 @@ Resp: "cinza"
 
 ### e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação. 
 
-var vcarro = 30000
-var entrada = 3000
-var parc = 750
+<p>var vcarro = 30000</p>
+<p>var entrada = 3000</p>
+<p>var parc = 750</p>
 
 var p = (vcarro - entrada) / parc
 
@@ -62,9 +62,9 @@ console.log(`O carro custa ${vcarro}. Com a entrada de #{entrada}, o carro custa
 
 ### f) Somando as variáveis de cores é formada uma string de quantos caracteres?
 
-var branco = 'preto';
-var preto = 'cinza';
-var cinza = 'branco';
+<p>var branco = 'preto';</p>
+<p>var preto = 'cinza';</p>
+<p>var cinza = 'branco';</p>
 
 var soma = branco + preto + cinza
 
