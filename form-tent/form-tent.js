@@ -17,8 +17,8 @@ function aprovação(notas){
 
 document.getElementById('formulario-01').addEventListener('submit', function(evento) {
     
-    evento.preventDefault()
-    evento.stopPropagation()
+    evento.preventDefault();
+    evento.stopPropagation();
     
     
     let dados = new FormData(this)

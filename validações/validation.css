@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7149425287356321) 18%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 80%;
+    border-radius: 10px;
+    height: auto;
+}
+
+h1 {
+    width: 350px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7149425287356321) 18%, rgba(0,212,255,1) 100%);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(215, 215, 226);
+    margin: 0 auto;
+}
+
+#formulario01 {
+    background-color: rgba(255, 255, 255, 0.466);
+    width: 350px;
+    border-radius: 10px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.erro{
+    border-color: #f00 !important;
+}
+
+.correto {
+    border-color: #0f0 !important;
+}
+#formulario01 input{
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.034);
+    border-bottom: 1px solid rgba(44, 38, 134, 0.63);
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 5px;
+    
+
+}
+
+button {
+    background-color: rgba(6, 35, 99, 0.904);
+    width: 100px;
+    margin: 20px auto;
+    padding: 5px ;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border-color: transparent;
+    color: #fff;
+    
+}
+
+label {
+    font-size: 1.5rem;
+    margin: 20px 10px 5px 10px;
+    color: rgb(66, 66, 116);
+}

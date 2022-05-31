@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./validation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Spline+Sans+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Spline+Sans+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Validação de dados</title>
+</head>
+<body>
+    <div id="container">
+        <form id="formulario01">
+            <h1>Validação de dados</h1>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" placeholder="Digite os dados aqui" class="obrigatorio">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" placeholder="Digite os dados aqui" class="obrigatorio email" >
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone" placeholder="Digite os dados aqui" class="numericos telefone">
+            <label for="cep">CEP</label>
+            <input type="text" name="cep"  placeholder="Digite os dados aqui" class="obrigatorio numericos cep">
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" placeholder="Digite os dados aqui" class="obrigatorio">
+            <label for="uf">UF</label>
+            <input type="text" name="uf"  placeholder="Digite os dados aqui" class="obrigatorio uf">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="./validation.js"></script>
+</body>
+</html>
+
+
+<!-- font-family: 'Bebas Neue', cursive;
+font-family: 'Spline Sans Mono', monospace;
+
+data-ls-module="charCounter" maxlength="11" minlength="11"-->
