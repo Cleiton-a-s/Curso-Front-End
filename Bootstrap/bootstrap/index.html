@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Bebas+Neue & family= Courgette & família= Poppins:wght@300;500 &family= Spline+Sans+Mono:wght@400;700 & display=swap" rel="stylesheet">
+    <title>Brasilgás</title>
+</head>
+<body>
+    <header>
+        <div class="container" id="container-0">
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid" src="./imagens/logo.1.png" alt="logo" id="logo">
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active"  href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active"  href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link active"  href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link active"  href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container" id="container-1">
+            <div class="row">
+                <div class="col-7 col-md-6 col-sm-12">
+                    <h2>Sobre Nós</h2>
+                    <p>A Brasilgás foi inaugurada no dia 03/06/2016 com uma proposta ousada, de ser a empresa com a entrega mais rápida da cidade! A qualidade do nosso produto é inquestionável, e o nosso argumento é a sua experiência positiva!<p>
+                    <p>Confira os nossos produtos! <a class="btn tbn-lg btn-success" id="botão-1">Conheça nossas ofertas</a> </p>
+                    
+                </div>
+                <div class="col-5 col-md-6 col-sm-12">
+                    <img src="./imagens/bsgs.jpeg" class="img-fluid" alt="image" id="img-chama">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <h2>Produtos</h2>
+                <div class="col">
+                    <div class="card">
+                        <img src="./imagens/p02.png" class="img-fluid" alt="img-p02">
+                        <div class="card-body">
+                            <h5 class="card-title">GLP 2kg</h5>
+                            <p class="card-text">Ideal para lampiões</p>
+                            <p class="card-text">R$ 20,00 <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imagens/p05.png" class="img-fluid" alt="img-p05">
+                        <div class="card-body">
+                            <h5 class="card-title">GLP 5kg</h5>
+                            <p class="card-text"> Ideal para comercios ambulantes</p>
+                            <p class="card-text">R$ 50,00 <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a></p>
+                        </div>
+                    </div>
+                    <div class="card" >
+                        <img src="./imagens/p13.png" class="img-fluid" alt="img-p13">
+                        <div class="card-body">
+                            <h5 class="card-title">GLP 13kg</h5>
+                            <p class="card-text">Ideal para residencias </p>
+                            <p class="card-text">R$ 120,00 <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulario para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome.">
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu E-mail.">
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-control" name="mensagem" cols="30" rows="5"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <button type="submit" class="btn btn-lg btn-success">Solicitar formulário</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto - 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close" ></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Compre mais e pague menos</h6>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Quantidade</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>20,00</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>40,00</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>55,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                </div>
+                <div class="modal-footer">
+                    <table>
+                        <tfoot>
+                            <tr>
+                                <td><button type="button" class="btn btn-secundary" data-bs-dismiss="modal">Fechar</button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto - 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>    
+                <div class="modal-body">
+                    <h6>Compre mais e pague menos</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Quantidade</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>  
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>50,00</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>100,00</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>140,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                 
+                </div>    
+                <div class="modal-footer">
+                    <table>
+                        <tfoot>
+                            <tr>
+                                <td><button type="button" class="btn btn-secundary" data-bs-dismiss="modal">Fechar</button></td>
+                            </tr>       
+                        </tfoot>   
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto - 3</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="closa"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Compre mais e pague menos</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Quantidade</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>120,00</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>240,00</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>350,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <table>
+                        <tfoot>
+                            <tr>
+                                <td><button type="button" class="btn btn-secundary" data-bs-dismiss="modal">Fechar</button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+.nav-item{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 0px;
+    border-radius: 5px !important;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+div #logo {
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 270px;
+    height: auto;
+}
+
+.nav-item{
+    border-bottom: 1px solid rgb(32, 178, 236);
+    
+}
+
+.nav-item a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: rgba(6, 48, 187, 0.856) !important;
+    margin-top: 10px;
+    
+}
+
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#container-0{
+    margin-top: 20px;
+}
+
+#container-1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 55%, rgba(255,255,255,1) 83%);  
+    border-radius: 20px;
+}
+
+#container-1 h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(225, 231, 238);
+    margin-top: 30px;
+    padding: 15px 0px 5px 0px;
+    text-align: center;
+}
+
+#container-1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color:rgb(249, 251, 255)
+
+}
+
+#botão-1{
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 30px;
+    border-color: #fff;
+    margin-left: 50px !important;    
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+.card{
+    background: linear-gradient(rgba(174, 236, 247, 0.61), rgba(34, 35, 119, 0.432));
+    width: 32%;
+    float: left;
+    margin: 5px;
+    display: block;
+}
+
+#img-chama{
+    justify-content: end;
+    opacity: 95%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+.btn-secundary{
+    background-color: rgb(145, 18, 18);
+    color: #fff;
+}
+
+.modal-content{
+    background-color: rgba(255, 255, 255, 0.959);
+}
+
+.card p{
+    font-weight: bold;
+}
+.card img{
+    width: 50%;
+    height: 175px;
+    display: block;
+    margin: 0 auto;
+}
+.card a{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Spline Sans Mono', monospace;*/
