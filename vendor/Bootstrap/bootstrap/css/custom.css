@@ -49,6 +49,10 @@ div #logo {
 
 }
 
+.slide:hover{
+    animation-play-state: running;
+}
+
 .carousel-caption{
     top: 25%;
 
@@ -130,14 +134,15 @@ label{
 #btn-form{
     margin-top: 20px;
 }
-.card{
-    background: linear-gradient(rgba(174, 236, 247, 0.61), rgba(34, 35, 119, 0.432));
+.card{    
     width: 32%;
     float: left;
     margin: 5px;
     display: block;
 }
-
+.card-body{
+    background: linear-gradient(rgba(174, 236, 247, 0.61), rgba(34, 35, 119, 0.432));
+}
 
 .btn-secundary{
     background-color: rgb(145, 18, 18);
@@ -148,9 +153,6 @@ label{
     background-color: rgba(255, 255, 255, 0.959);
 }
 
-.card p{
-    font-weight: bold;
-}
 .card img{
     width: 50%;
     height: 175px;

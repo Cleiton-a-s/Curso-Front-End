@@ -12,29 +12,36 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="assets/images/logopizza.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="products.html">Produtos</a>
+                        <a class="nav-link nav-modal-open" href="#modal-cardapio" rel="cardapio">Cárdapio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link nav-modal-open" href="#" rel="sobre">Promoções</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Sobre nós</a>
+                        <a class="nav-link nav-modal-open" href="contact.html" rel="contato">Contato</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contato</a>
-                    </li>
-                </ul>
+                </ul>             
+            </div>
+            <div>
+                <img class="iconphone" src="./assets/images/iconphone2.png" alt="">
+            </div>
+            <div class="telephone">
+               <h5>(77) 9908-0636</h5> 
+            </div>
+            <div class="pedido">
+                <h4>Ligue</h4>
             </div>
         </div>
     </nav>
@@ -44,11 +51,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="caption">
-                        <h2>Ecommerce HTML Template</h2>
+                        <h2>Pizza é sempre uma boa idéia!</h2>
                         <div class="line-dec"></div>
-                        <p>HTML Template can be converted into your desired CMS theme. </p>
+                        <h6>Esteja preparado para experimentar prazer em forma de pizza! <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-emoji-heart-eyes-fill btn-warning" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.559 5.448a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zm-.07-5.448c1.397-.864 3.543 1.838-.953 3.434-3.067-3.554.19-4.858.952-3.434z"/>
+                          </svg>
+                        </h6>
+                        
+                        
                     </div>
                 </div>
+                <a href="https://wa.me/5577999080636?text=Ol%C3%A1,%20em%20que%20posso%20ajudar?"><i class="fa fa-whatsapp fa-4x "></i></a>
             </div>
         </div>
     </div>
@@ -59,81 +72,57 @@
                 <div class="col-md-12">
                     <div class="section-heading">
                         <div class="line-dec"></div>
-                        <h1>Destaques</h1>
+                        <h1>Sugestões</h1>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="featured-item">
-                            <img src="assets/images/item-01.jpg" alt="Item 1">
-                            <h4>Produto 1</h4>
-                            <h6>R$ 20,00</h6>
+                            <img src="assets/images/calabresa.png" alt="Item 1">
+                            <h4>Calabresa</h4>
+                            <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
                             <a href="single-product.html">
-                                Comprar
+                                Pedir
                             </a>
                         </div>
                         <div class="featured-item">
-                            <img src="assets/images/item-02.jpg" alt="Item 2">
-                            <h4>Produto 2</h4>
-                            <h6>R$ 20,00</h6>
+                            <img src="assets/images/bacon.png" alt="Item 2">
+                            <h4>Bacon</h4>
+                            <p>Bacon, Muçarela, catupiry, molho de tomate, orégano</p>
                             <a href="single-product.html">
-                                Comprar
+                                Pedir
                             </a>
                         </div>
                         <div class="featured-item">
-                            <img src="assets/images/item-03.jpg" alt="Item 3">
-                            <h4>Produto 3</h4>
-                            <h6>R$ 20,00</h6>
+                            <img src="assets/images/palmito.png" alt="Item 6">
+                            <h4>Palmito</h4>
+                            <p>Catupiry, muçarela palmito, molho de tomate, orégano</p>
                             <a href="single-product.html">
-                                Comprar
+                                Pedir
                             </a>
                         </div>
                         <div class="featured-item">
-                            <img src="assets/images/item-04.jpg" alt="Item 4">
-                            <h4>Produto 4</h4>
-                            <h6>R$ 20,00</h6>
+                            <img src="assets/images/casa.png" alt="Item 4">
+                            <h4>Moda da casa</h4>
+                            <p>Palmito, Bacon, muçarela, molho de tomate, orégano</p>
                             <a href="single-product.html">
-                                Comprar
+                                Pedir
                             </a>
                         </div>
                         <div class="featured-item">
-                            <img src="assets/images/item-05.jpg" alt="Item 5">
-                            <h4>Produto 5</h4>
-                            <h6>R$ 20,00</h6>
+                            <img src="assets/images/muçarela.png" alt="Item 5">
+                            <h4>Muçarela</h4>
+                            <p>Muçarela, catupiry tomate, molho de tomate, orégano</p>
                             <a href="single-product.html">
-                                Comprar
+                                Pedir
                             </a>
                         </div>
                         <div class="featured-item">
-                            <img src="assets/images/item-06.jpg" alt="Item 6">
-                            <h4>Produto 6</h4>
-                            <h6>R$ 20,00</h6>
+                            <img src="assets/images/palmito.png" alt="Item 6">
+                            <h4>Mexicana</h4>
+                            <p>Calabresa, presunto, muçarela, pimenta mexicana, molho de tomate, orégano</p>
                             <a href="single-product.html">
-                                Comprar
-                            </a>
-                        </div>
-                        <div class="featured-item">
-                            <img src="assets/images/item-04.jpg" alt="Item 7">
-                            <h4>Produto 7</h4>
-                            <h6>R$ 20,00</h6>
-                            <a href="single-product.html">
-                                Comprar
-                            </a>
-                        </div>
-                        <div class="featured-item">
-                            <img src="assets/images/item-05.jpg" alt="Item 8">
-                            <h4>Produto 8</h4>
-                            <h6>R$ 20,00</h6>
-                            <a href="single-product.html">
-                                Comprar
-                            </a>
-                        </div>
-                        <div class="featured-item">
-                            <img src="assets/images/item-06.jpg" alt="Item 9">
-                            <h4>Produto 9</h4>
-                            <h6>R$ 20,00</h6>
-                            <a href="single-product.html">
-                                Comprar
+                                Pedir
                             </a>
                         </div>
                     </div>
@@ -147,27 +136,25 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="logo">
-                        <img src="assets/images/header-logo.png" alt="">
+                        <img src="assets/images/logopizza.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="footer-menu">
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">How It Works ?</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Cardápio</a></li>
+                            <li><a href="#">Promoções</a></li>
+                            <li><a href="#">Contato</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="https://www.facebook.com/cleiton.anjos.716"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://wa.me/5577999080636?text=Ol%C3%A1,%20em%20que%20posso%20ajudar?"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.instagram.com/cleitonanjoss/"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -187,9 +174,333 @@
             </div>
         </div>
         
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#cardapio">
+          Launch
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="cardapio"  tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">    
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content"></div>
+                    <div class="modal-header">
+                        <h3 class="modal-title title-cardapio">Pizza Salgada</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-item">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                </div>
+                                <div class="col-10 item-position">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <h5>Calabresa</h5>
+                                        </div>
+                                        <div class="col-3">
+                                            <h6>R$ 39,99</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                               
+                        </div>
+                        <div class="modal-item">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                </div>
+                                <div class="col-10 item-position">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <h5>Calabresa</h5>
+                                        </div>
+                                        <div class="col-3">
+                                            <h6>R$ 39,99</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="modal-item">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assets/images/calabresa.png" alt="calabresa-cardapio" class="img-cardapio">
+                                    </div>
+                                    <div class="col-10 item-position">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5>Calabresa</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <h6>R$ 39,99</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Calabresa, muçarela, catupiry, molho de tomate, orégano</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg visually-hidden" data-bs-toggle="modal" data-bs-target="#modelId">
+            Launch
+        </button>
+        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contato" class="visually-hidden">
+            <form action="post" class="form">
+                .<div class="mb-3">
+                  <label for="nome" class="form-label">Nome</label>
+                  <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome" aria-describedby="helpNome">
+                  <small id="helpNome" class="text-muted">Digite um nome válido</small>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Digite seu E-mail" aria-describedby="helpEmail">
+                    <small id="helpEmail" class="text-muted">Digite um E-mail válido</small>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="data" class="form-label">Data</label>
+                    <input type="text" name="data" id="data" class="form-control" placeholder="Digite a data" aria-describedby="helpData">
+                    <small id="helpData" class="text-muted">Digite uma data válida</small>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="hora" class="form-label">Hora</label>
+                    <input type="text" name="hora" id="hora" class="form-control" placeholder="Digite a hora" aria-describedby="helpHora">
+                    <small id="helpHora" class="text-muted">Digite uma hora válida</small>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="text" name="cep" id="cep" class="form-control" placeholder="Digite o cep" aria-describedby="helpCep">
+                    <small id="helpCep" class="text-muted">Digite um CEP válido</small>
+                  </div>
+                  <div class="mb-3">
+                    <label for="celular" class="form-label">Celular</label>
+                    <input type="text" name="celular" id="celular" class="form-control" placeholder="Digite o seu número de celular" aria-describedby="helpPhone">
+                    <small id="helpPhone" class="text-muted">Digite um número de celular válido</small>
+                  </div>
+                  <div class="mb-3">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite o seu CPF" aria-describedby="helpCpf">
+                    <small id="helpCpf" class="text-muted">Digite um CPF válido</small>
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>      
+        </div>
+        <div id="sobre" class="visually-hidden">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptate cumque ipsa sequi! Ex iusto dolor commodi facere impedit consectetur doloribus perferendis suscipit sed veritatis officiis ea, vero, odit cumque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero commodi hic officia iure minima soluta a deleniti vel, expedita accusantium quia, laudantium dolorum optio odio accusamus, neque facere necessitatibus autem?</p>
+        </div>
+        
+        
         <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
         <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="./vendor/owl/js/owl.js"></script>
+        <script src="./vendor/JQuery-Mask/jquery.mask.min.js"></script>
         <script src="./js/custom.js"></script>
     </body>
     </html>
